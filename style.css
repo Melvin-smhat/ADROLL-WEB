@@ -1,0 +1,227 @@
+body {
+    font-family: "Lora", sans-serif;
+    background-color: #f8f9fa;
+  }
+  .navbar-brand {
+    font-size: 1.5em;
+    color: #3498db;
+  }
+  .navbar-nav .nav-item {
+    margin: 0 15px;
+  } 
+  .jumbotron {
+    background-image: url(hero-pricing.jpg);
+    color: #000;
+    padding: 80px 0;
+  }
+ 
+  .pricing-plans {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .faq-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+  }
+  .faq-section h2 {
+    color: #000;
+    margin-bottom: 30px;
+  }
+  .package-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 10px;
+    height: 300px;
+    background-color: #fff;
+  }
+
+  .package-header {
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .package-header h3 {
+    margin: 0;
+  }
+
+  .header-sub {
+    color: #000;
+    font-size: 14px;
+  }
+
+  .package-main {
+    margin: 14px 0 0;
+    text-align: center;
+  }
+  .package-main a{
+    text-decoration: none;
+  }
+  .cta {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+  }
+
+  .ads-cta {
+    background-color: #8e44ad;
+    color: #fff;
+  }
+
+  .marketing-cta {
+    background-color: #8e44ad;
+    color: #fff;
+  }
+
+  .advanced-cta {
+    background-color: #00aeef;
+    color: #fff;
+  }
+  .cta:hover{
+    color: #fff;
+  }
+  .button-box{
+    width: 400px;
+    margin-left: 37em;
+    margin-bottom: 20px;
+    position: relative;
+    border-radius: 30px;
+    background: #00aeef;
+}
+.toggle-btn{
+    padding: 10px 40px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    text-align: center;
+}
+#btn{
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 200px;
+    height: 100%;
+    background: #303273;
+    border-radius: 30px;
+    transition: .5s;
+}
+.form-box{
+    color: #fff;
+}
+button{
+    color: #fff;
+}
+.starting{
+ display: block;
+ font-size: 11px;
+ line-height: 14px;padding-top: 10px;
+}
+.currency{
+  font-size: 20px;
+}
+.packagePrice{
+  font-size: 62px;
+}
+/* =========================discount css================================ */
+.discount{
+  background: #ffe8e0;
+  color: #000;
+}
+.dbtn{
+  height: 50px;
+  width: 75%;
+  outline: none;
+  border: none;
+  color: #000;
+  background-color: white;
+  border-radius: 50px;
+  margin: 0 auto;
+  display: block;
+  font-weight: lighter;
+  transition: all 0.4s;
+}
+.dbtn:hover{
+  background-color: rgb(228, 228, 228);
+}
+img {
+  max-width: 15%; 
+  height: auto; 
+  display: block;
+  float: left; 
+  margin-right: 10px; 
+} 
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: none;
+  width: 1000px;
+  text-align: center;
+}
+
+td {
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+th, td{
+  padding: 10px;
+}
+.space-cell{
+  margin-right: 100px;
+}
+.tr-width{
+  height: 70px;
+}
+.tableH{
+  font-size: 20px;
+  font-weight: 700;
+}
+.font-size{
+  font-size: 12px;
+}
+.icon{
+  color: rgb(77, 204, 77);
+  font-size: 20px;
+}
+.cancel{
+  color: red;
+  font-size: 30px;
+  
+}
+
+
+
+/* breakpoint */
+/* Media queries for different screen sizes */
+@media only screen and (max-width: 768px) {
+  .button-box {
+      width: 400px;
+      margin-left: 25%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .button-box {
+      width: 400px;
+      margin-left: 0%;
+  }
+  #btn {
+      width: 200px;
+  }
+}
