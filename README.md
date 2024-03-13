@@ -3,8 +3,8 @@
 
 <p>Home page</p>
 
-![screenshots](screenshots/1.PNG)
+![screenshot](screenshot/1.PNG)
 
 <p>Body</p>
 
-![screenshots](screenshots/2.PNG)
+![screenshot](screenshot/2.PNG)
